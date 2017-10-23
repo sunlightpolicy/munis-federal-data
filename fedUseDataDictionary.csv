@@ -1,0 +1,100 @@
+Variable,Type,Question
+city,character,What city do you work for?
+deptWork,character,What department do you work for?
+deptWorkGroup,character,Grouped responses. What department do you work for?
+deptSpeak,character,What department(s)' data usage are you able to speak to?
+deptSpeakGroup,character,Grouped responses. What department(s)' data usage are you able to speak to?
+fedUse,"[yes, no]",Does your department use federal data?
+noUseBenefit,indicator,"Our department does not see the benefit of federal data. 
+Why doesn't your department use federal data?  Select all that apply."
+noUseAccess,indicator,"Accessing and using federal data is too challenging or time consuming. 
+Why doesn't your department use federal data? Select all that apply."
+noUseCity,indicator,"We use data produced by our city instead. 
+Why doesn't your department use federal data?  Select all that apply."
+noUsePurchase,indicator,"We purchase data instead. 
+Why doesn't your department use federal data?  Select all that apply. "
+noUseOther,indicator,"Other. 
+Why doesn't your department use federal data?  Select all that apply."
+noUseOtherText,indicator,"Other text response 
+Why doesn't your department use federal data? Select all that apply. "
+useDemo,indicator,Demographic. What types of federal data does your department use? Select all that apply.
+useEcon,indicator,Economic. What types of federal data does your department use? Select all that apply.
+useEnv,indicator,Environmental. What types of federal data does your department use? Select all that apply.
+useEdu,indicator,Education. What types of federal data does your department use? Select all that apply.
+useHealth,indicator,Health. What types of federal data does your department use? Select all that apply.
+useHouse,indicator,Housing. What types of federal data does your department use? Select all that apply.
+useCrim,indicator,Criminal. What types of federal data does your department use? Select all that apply.
+useSci,indicator,Scientific. What types of federal data does your department use? Select all that apply.
+useReg,indicator,Regulatory. What types of federal data does your department use? Select all that apply.
+useTranspo,indicator,Transportation. What types of federal data does your department use? Select all that apply.
+useLegal,indicator,Legal. What types of federal data does your department use? Select all that apply.
+useCaFi,indicator,Campaign finance. What types of federal data does your department use? Select all that apply.
+useElec,indicator,Electoral. What types of federal data does your department use? Select all that apply.
+useLeg,indicator,Legistlative. What types of federal data does your department use? Select all that apply.
+dataDOJ,indicator,Department of Justice. What federal agencies does your department rely on most for data? Please pick up to three.
+dataDOT,indicator,Department of Transportation. What federal agencies does your department rely on most for data? Please pick up to three.
+dataCensus,indicator,Census Department. What federal agencies does your department rely on most for data? Please pick up to three.
+dataDOI,indicator,Department of the Interior. What federal agencies does your department rely on most for data? Please pick up to three.
+dataHHS,indicator,Department of Health and Human Services. What federal agencies does your department rely on most for data? Please pick up to three.
+dataDOE,indicator,Department of Education. What federal agencies does your department rely on most for data? Please pick up to three.
+dataEPA,indicator,Environmental Protection Agency. What federal agencies does your department rely on most for data? Please pick up to three.
+dataHUD,indicator,Department of Housing and Urban Development. What federal agencies does your department rely on most for data? Please pick up to three.
+dataUSDA,indicator,Department of Agriculture. What federal agencies does your department rely on most for data? Please pick up to three.
+dataFDIC,indicator,Federal Deposit Insurance Corporation. What federal agencies does your department rely on most for data? Please pick up to three.
+dataFHFA,indicator,Federal Housing Finance Agency. What federal agencies does your department rely on most for data? Please pick up to three.
+dataIRS,indicator,Internal Revenue Service. What federal agencies does your department rely on most for data? Please pick up to three.
+dataCFPB,indicator,Consumer Finance and Protection Bureau. What federal agencies does your department rely on most for data? Please pick up to three.
+dataLabor,indicator,Department of Labor. What federal agencies does your department rely on most for data? Please pick up to three.
+dataOther,indicator,Other. What federal agencies does your department rely on most for data? Please pick up to three.
+otherDataText,character,Other text answer. What federal agencies does your department rely on most for data? Please pick up to three.
+howAccess,"[A text report, Downloading a data file, An online tool, API]",How does your department typically access federal data?
+geoState,indicator,"State. If your department uses geographic data, what levels of geography do you look at? Select all that apply."
+geoCounty,indicator,"County. If your department uses geographic data, what levels of geography do you look at? Select all that apply."
+geoCountySub,indicator,"Subcounty divisions. If your department uses geographic data, what levels of geography do you look at? Select all that apply."
+geoCBSA,indicator,"Core-based Statistical Area (CBSA). If your department uses geographic data, what levels of geography do you look at? Select all that apply."
+geoTract,indicator,"Census tract. If your department uses geographic data, what levels of geography do you look at? Select all that apply."
+geoBlockGroup,indicator,"Census block group. If your department uses geographic data, what levels of geography do you look at? Select all that apply."
+geoBlock,indicator,"Census block. If your department uses geographic data, what levels of geography do you look at? Select all that apply."
+geoAll,indicator,"All. If your department uses geographic data, what levels of geography do you look at? Select all that apply."
+geoNA,indicator,"Not applicable. If your department uses geographic data, what levels of geography do you look at? Select all that apply."
+doTrack,indicator,Track city or department performance. How does your department use federal data? Select all that apply.
+doID,indicator,Identify local issues. How does your department use federal data? Select all that apply.
+doBudget,indicator,Make budgeting decisions. How does your department use federal data? Select all that apply.
+doInform,indicator,Inform policy decisions. How does your department use federal data? Select all that apply.
+doPredict,indicator,Create predictive models. How does your department use federal data? Select all that apply.
+doReg,indicator,Regulatory enforcement. How does your department use federal data? Select all that apply.
+doOther,indicator,Other. How does your department use federal data? Select all that apply.
+otherDoText,character,Other text response. How does your department use federal data? Select all that apply.
+import,"[Not important, Slightly important, Fairly important, Important, Very important]",How important is federal data to your department's mission?
+startUse,"[Less than a year ago, 1 to 3 years ago, 3 to 5 years ago, 5 to 10 years ago, More than a decade ago]",When did your department start using federal data?
+pastChg,"[A lot less, Slightly less, About the same, Slightly more, A lot more]",Does your department use more or less federal data today than 5 years ago?
+lessFreq,indicator,Federal data is not updated often enough. Why does your department use less federal data today than it did 5 years ago? Select all that apply.
+lessQuality,indicator,The quality of federal data is not good enough. Why does your department use less federal data today than it did 5 years ago? Select all that apply.
+lessAccess,indicator,Federal data is too difficult to access or use. Why does your department use less federal data today than it did 5 years ago? Select all that apply.
+lessUse,indicator,Federal data is not useful to our department. Why does your department use less federal data today than it did 5 years ago? Select all that apply.
+lessOther,indicator,Other. Why does your department use less federal data today than it did 5 years ago? Select all that apply.
+lessOtherText,character,Other text response. Why does your department use less federal data today than it did 5 years ago? Select all that apply.
+lessReplace,"[Replace federal data with data collected by your city, Replace federal data with data we purchase, No replacement for federal data currently used]",Since reducing use of federal data has your department predominantly:
+futureChg,"[A lot less, Slightly less, About the same, Slightly more, A lot more]",Do you anticipate your department using more or less federal data 5 years ago?
+fLessFreq,indicator,Federal data is not updated often enough. Why does your department plan to use less federal data over the next 5 years? Select all that apply.
+flessQual,indicator,The quality of federal data is not good enough. Why does your department plan to use less federal data over the next 5 years? Select all that apply.
+fLessAccess,indicator,Federal data is too difficult to access or use. Why does your department plan to use less federal data over the next 5 years? Select all that apply.
+fLessUse,indicator,Federal data is not useful to our department. Why does your department plan to use less federal data over the next 5 years? Select all that apply.
+fLessOther,indicator,Other. Why does your department plan to use less federal data over the next 5 years? Select all that apply.
+fLessOtherText,character,Other text response. Why does your department plan to use less federal data over the next 5 years? Select all that apply.
+fLessReplace,"[Replace federal data with data collected by your city, Replace federal data with data we purchase, No replacement for federal data currently used]",Since reducing use of federal data has your department predominantly:
+freq,"[Too infrequent, Just right, Too frequent]",How would you describe the publishing schedule of federal data?
+access,"[Very difficult, Difficult, Neutral, Easy, Very easy]",How easy it is to find and access federal data?
+easeUse,"[Very difficult, Difficult, Neutral, Easy, Very easy]","How easy is it to use federal data? Please consider documentation, data standards, and any data cleaning that is required."
+accuracy,"[Very Poor, Poor, Acceptable, Good, Very Good]",How would you rate the accuracy of federal data?
+futureFreq,"[Much worse, Somewhat worse, About the same, Somewhat better, Much better]",How do you expect the frequency of federal data to change in the next 5 years?
+futureAccess,"[Much worse, Somewhat worse, About the same, Somewhat better, Much better]",How do you expect the access to federal data to change in the next 5 years?
+futureUse,"[Much worse, Somewhat worse, About the same, Somewhat better, Much better]",How do you expect the ease of use of federal data to change in the next 5 years?
+futureAccuracy,"[Much worse, Somewhat worse, About the same, Somewhat better, Much better]",How do you expect the accuracy of federal data to change in the next 5 years?
+mena,"[Not at all valuable, Slightly valuable, Moderately valuable, Very valuable, Extremely valuably]",Please indicate how valuable the addition to Middle Eastern and North African to the Census race question would be to your department.
+hispanic,"[Not at all valuable, Slightly valuable, Moderately valuable, Very valuable, Extremely valuably]","Please indicate how valuable the addition to Hispanic, Latino, or Spanish origin (instead of a separate ethnicity question) to the Census race question would be to your department."
+lostAccess,"[yes, no]",Has your department lost access to any federal data since January?
+lostData,character,What data has your department lost access to?
+lossImpact,character,What would be the most likely impact of the loss of federal data on your city and its residents?
+wishData,"[yes, no]",Is there any federal data your department would like but do not have access to?
+wishListData,character,What federal data would you like but don’t currently have access to?
